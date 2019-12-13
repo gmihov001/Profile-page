@@ -1,3 +1,70 @@
-/* 
-    General Styles
-*/
+body {
+  font-family: 16px/1.6 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3c5363;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sidenav:hover {
+    background-color: #3c5363;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+
+.navlink:hover:before {
+    content: "{"; 
+    padding-right: 3px;
+}
+
+.navlink:hover:after {
+    content: "}"; 
+    padding-left: 3px;
+}
+
+.navlink:hover {
+    background-color: #222f38;
+    box-shadow: 20px 5px 30px 10px #0ff;
+    color: #0ff;
+    border-radius: 5px;
+}
+
+.main {
+  margin-left: 300px;
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
