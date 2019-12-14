@@ -6,7 +6,7 @@ import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
-
+import { About } from "./views/about";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 
@@ -23,7 +23,7 @@ export const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/about" component={Demo} />
+						<Route path="/about" component={About} />
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
