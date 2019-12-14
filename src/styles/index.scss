@@ -1,11 +1,29 @@
-body {
-  font-family: 16px/1.6 'Roboto', Helvetica, sans-serif;
+html,body {
+  font-family: 16px/1.6 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
+  height: 100%;
+  background-color: rgb(245,245,245);
 }
 
 .wrapper {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
+}
+
+.enter-btn {
+    color: magenta;
+    border: solid 1px magenta;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.enter-btn:hover {
+    color: magenta;
+    background-color: rgb(210,210,210);
+    border: solid 1px magenta;
+    text-shadow: 0px 0px 4px rgb(248, 192, 248);
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -15,13 +33,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 #myPhoto {
-    width: 75%;
+    width: 80%;
+    height: auto;
     border-radius: 49%;
 }
 
 .sidenav {
   height: 100%;
-  width: 25%;
+  width: 22%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -43,6 +62,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-size: 20px;
   color: white;
   display: block;
+}
+
+.navlink {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
 }
 
 .navlink:hover:before {
@@ -68,11 +91,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .my-card-content h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
 }
 
 .main {
-  margin-left: 25%;
+  margin-left: 22%;
+  font-size: 20px; 
+  height: 100%;
+  padding: 0px 10px;
+  color: #3c5363;
+}
+
+.footer {
+  margin-left: 22%;
   font-size: 20px; 
   padding: 0px 10px;
 }

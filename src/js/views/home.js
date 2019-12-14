@@ -2,13 +2,25 @@ import React from "react";
 import "../../styles/home.scss";
 
 export const Home = () => (
-	<div className="wrapper">
+	<div className="wrapper main">
 		<div className="text-center mt-5">
-			<h1>Welcome to my page!</h1>
-			<p></p>
-			<a href="#" className="btn btn-primary">
-				Hello
-			</a>
+			<h3>HELLO AND WELCOME TO MY PAGE!</h3>
+			<p>This site is just a &quot;personal story&quot;.</p>
+			<p>
+				But my personal story will show you how and why I may be best at meeting your Web Development and
+				Business needs.
+			</p>
+			<p>(I promise I&#39;ll keep it very brief :))</p>
+			<p>
+				<br />
+				<br />
+				<br />
+			</p>
+			<p>
+				<a href="#" className="enter-btn">
+					Get to know me &#8250;
+				</a>
+			</p>
 		</div>
 	</div>
 );
