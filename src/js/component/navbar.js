@@ -8,7 +8,7 @@ export const Navbar = () => {
 			<div className="sidenav-inner h-card my-2">
 				<a className="my-card">
 					<div className="my-card-avatar text-center my-2">
-						<img id="myPhoto" src={Photo} />
+						<img className="photo shadow" id="myPhoto" src={Photo} />
 					</div>
 					<div className="my-card-content text-center my-3">
 						<h3>
