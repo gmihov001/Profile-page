@@ -4,32 +4,32 @@ import Photo from "../../img/Myself-Copy.jpg";
 
 export const Navbar = () => {
 	return (
-		<div className="sidenav shadow">
+		<div className="sidenav shadow-lg">
 			<div className="sidenav-inner h-card my-2">
-				<a className="my-card">
+				<Link to="/">
 					<div className="my-card-avatar text-center my-2">
 						<img className="photo shadow" id="myPhoto" src={Photo} />
 					</div>
-					<div className="my-card-content text-center my-3 pt-2">
-						<h2>
-							George <strong>Mihov</strong>
-						</h2>
-						<h4>Full-Stack Web Developer</h4>
-					</div>
-				</a>
+				</Link>
+				<div className="my-card-content text-center my-3 pt-2">
+					<h2>
+						George <strong>Mihov</strong>
+					</h2>
+					<h4>Full-Stack Web Developer</h4>
+				</div>
 			</div>
 			<div className="sections py-4">
 				<Link className="navlink" to="/about">
 					About me
 				</Link>
-				<a className="navlink" href="#profile">
+				<Link className="navlink" to="/profile">
 					Profile
-				</a>
-				<a className="navlink" href="#portfolio">
+				</Link>
+				<Link className="navlink" to="/portfolio">
 					Portfolio
-				</a>
+				</Link>
 			</div>
-			<div className="social-icons text-center">
+			<div className="social-icons text-left">
 				<a rel="me" href="#" className="button button-icon u-email" title="mail: gmihov001@gmail.com">
 					<i className="fas fa-envelope-square"></i>
 				</a>

@@ -1,17 +1,19 @@
 html,body {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  font-weight: 300;
-  height: 100%;
-  background-color: rgb(245,245,245);
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-weight: 300;
+    height: 100%;
+    background-color: rgb(245,245,245);
 }
 
 .wrapper {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  font-weight: 300;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-weight: 300;
+    height: 100vh;
 }
 
 .enter-btn {
     color: magenta;
+    background-color: rgb(243,243,243);
     border: solid 1px magenta;
     padding: 10px;
     text-decoration: none;
@@ -22,12 +24,13 @@ html,body {
     color: magenta;
     background-color: white;
     border: solid 1px magenta;
-    text-shadow: 0px 0px 4px magenta;
+    text-shadow: 0px 2px 18px magenta;
+    box-shadow: 2px 4px 10px 1px lightgray;
     text-decoration: none;
 }
 
 #myPhoto {
-    width: 80%;
+    width: 70%;
     height: auto;
     border-radius: 49%;
 }
@@ -43,6 +46,7 @@ html,body {
   overflow-x: hidden;
   padding-top: 20px;
   color: white;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -60,7 +64,6 @@ html,body {
 }
 
 .button-icon:hover {
-    background-color: #222f38;
     color: #0ff;
     border-radius: 5px;
     text-decoration: none;
@@ -93,9 +96,17 @@ html,body {
     text-decoration: none;
 }
 
-.my-card:hover {
+.sidenav-inner {
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    color: white;
+    display: block;
+}
+
+.sidenav-inner:hover {
     text-shadow: 1px 2px 4px black;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .main {
