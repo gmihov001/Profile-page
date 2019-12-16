@@ -10,7 +10,7 @@ export const About = () => {
 					<span className="magenta h3"> I am a Miami-based Web developer. </span>
 				</div>
 				<div className="row secondary">
-					<span className="h4">
+					<span className="h5">
 						I love to travel. With every next trip I become better at communicating with and understanding
 						people from different cultures. Being able to communicate effectively and understand those
 						around us is one of the most crucial soft skills in the workplace.

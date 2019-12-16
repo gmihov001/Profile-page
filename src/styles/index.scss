@@ -3,6 +3,7 @@ html,body {
     font-weight: 300;
     height: 100%;
     background-color: rgb(245,245,245);
+    color: darkslategray;
     text-decoration: none;
 }
 
@@ -17,43 +18,45 @@ html,body {
 .wrapper {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-weight: 300;
-    padding-left: 30px;
+    margin-left: 22%;
 }
 
 .secondary {
+    padding-top: 30px;
+    padding-left: 30px;
     color: darkslategray;
 }
 
 .home {
-  margin-left: 22%;
-  font-size: 1.3rem;
-  color: lightgray;
-  background-color: #192127;
-  line-height: 2;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    color: lightgray;
+    background-color: #192127;
+    line-height: 2;
 }
 
 .about {
-  margin-left: 22%;
-  font-size: 1.3rem;
-  color: lightgray;
-  background-color: #192127;
-  line-height: 2;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    color: lightgray;
+    background-color: #192127;
+    line-height: 2;
 }
 
 .portfolio {
-  margin-left: 22%;
-  font-size: 1.3rem;
-  color: lightgray;
-  background-color: #192127;
-  line-height: 2;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    color: lightgray;
+    background-color: #192127;
+    line-height: 2;
 }
 
 .profile {
-  margin-left: 22%;
-  font-size: 1.3rem;
-  color: lightgray;
-  background-color: #192127;
-  line-height: 2;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    color: lightgray;
+    background-color: #192127;
+    line-height: 2;
 }
 
 .enter-btn {
