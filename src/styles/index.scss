@@ -133,6 +133,7 @@ html,body {
   padding: 0px 10px;
   color: lightgray;
   background-color: #222f38;
+  line-height: 2;
 }
 
 .footer {
@@ -155,4 +156,38 @@ div.my-card-content h2 strong {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .navlink {font-size: 1.3rem;}
+}
+
+/* --Colors-- */
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
+.lightblue {
+    color: lightskyblue;
+}
+
+.magenta {
+    color: magenta;
+}
+
+.lightgreen {
+    color: lightgreen;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.red {
+    color: red;
 }
