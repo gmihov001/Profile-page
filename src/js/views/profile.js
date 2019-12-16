@@ -5,9 +5,10 @@ import { Context } from "../store/appContext";
 export const Profile = () => {
 	return (
 		<>
-			<div className="container main mt-5 pt-5">
-				<div className="row">This is my Professional Profile.</div>
+			<div className="wrapper profile">
+				<div className="row main mt-5 pt-5">This is my Professional Profile.</div>
 			</div>
+			<div className="wrapper secondary">See below.</div>
 		</>
 	);
 };
