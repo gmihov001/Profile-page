@@ -10,9 +10,11 @@ export const Home = props => (
 			<span className="magenta h3"> WEB DEVELOPER </span>) =&gt; &#123;
 			<p className="pt-3 ml-5">
 				But I wasn&lsquo;t always a Web Developer.
-				<br />I was once a college kid from a distressed post-Communist East-European country, who{" "}
-				<span className="lightblue h4">moved to the US</span> with one suitcase and a total of{" "}
-				<span className="yellow h4">$227</span>. No relatives, no friends, no clear path.
+				<br />I was once a college kid from a distressed post-Communist country, who{" "}
+				<span className="lightblue h4">moved to the US</span> with nothing but a suitcase and a total of{" "}
+				<span className="yellow h4">$227</span>. <span className="red h3"> No </span> contacts,{" "}
+				<span className="red h3"> no </span> job,
+				<span className="red h3"> no </span> place to live.
 			</p>
 			<p className="ml-5">
 				And I made it. I even put myself through college all over again. This part of my life taught me that
@@ -21,7 +23,8 @@ export const Home = props => (
 			</p>
 			<p className="ml-5">
 				Then I built a career in corporate Human Resources. I hired a lot of people and I later evaluated their
-				performance. This taught me that <span className="lightblue h4"> technical skills can be </span>{" "}
+				performance. This experience taught me that{" "}
+				<span className="lightblue h4"> technical skills can be </span>{" "}
 				<span className="magenta h3"> acquired </span>, but
 				<span className="lightblue h4"> passion </span>,<span className="orange h4"> positive attitude </span>,
 				<span className="lightgreen h4"> working well with people </span>,
@@ -31,15 +34,14 @@ export const Home = props => (
 				<br /> &#125;
 			</p>
 			<p>
-				This is why
+				So if you are looking to hire someone with the right combination of skills, attitude and passion,
 				<span className="lightgreen h3">
-					{" "}
-					I may just be the <span className="orange h3"> best addition </span> to your development team{" "}
+					<br />I may just be the <span className="orange h3"> best addition </span> to your development team{" "}
 				</span>
 				<Link to="/about">
-					<span type="text" className="enter-btn h3 m-3">
+					<button type="text" className="enter-btn h3 m-3">
 						Learn more...
-					</span>
+					</button>
 				</Link>
 			</p>
 			<p className="pt-4 mb-5">
@@ -51,15 +53,15 @@ export const Home = props => (
 				<p className="text-center">
 					See my
 					<Link to="/profile">
-						<span type="text" className="enter-btn h3 m-3">
+						<button type="text" className="enter-btn h3 m-3">
 							Professional profile
-						</span>
+						</button>
 					</Link>
 					or my
 					<Link to="/portfolio">
-						<span type="text" className="enter-btn h3 m-3">
+						<button type="text" className="enter-btn h3 m-3">
 							Portfolio
-						</span>
+						</button>
 					</Link>
 				</p>
 			</p>

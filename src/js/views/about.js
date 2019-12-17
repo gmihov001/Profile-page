@@ -7,7 +7,7 @@ export const About = () => {
 		<>
 			<div className="wrapper">
 				<div className="row about ml-0 py-5">
-					<span className="magenta h3"> I am a Miami-based Web developer. </span>
+					<span className="magenta-shadow h3"> ABOUT ME </span>
 				</div>
 				<div className="row secondary">
 					<span className="h5">
