@@ -6,8 +6,8 @@ export const About = () => {
 	return (
 		<>
 			<div className="wrapper">
-				<div className="row about ml-0 py-5">
-					<span className="magenta-shadow h3"> ABOUT ME </span>
+				<div className="row about ml-0 py-5 d-flex justify-content-end">
+					<span className="h3 section-heading"> ABOUT ME </span>
 				</div>
 				<div className="row secondary h5">
 					<span>I am based in South Floirida.</span>

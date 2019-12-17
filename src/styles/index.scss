@@ -41,7 +41,8 @@ html,body {
     padding-left: 20px;
     padding-right: 10px;
     font-size: 1.3rem;
-    color: lightgray;
+    color: magenta;
+    text-shadow: 0px 2px 10px rgba(255, 0, 255, 0.9);
     background-color: #192127;
 }
 
@@ -49,7 +50,8 @@ html,body {
     padding-left: 20px;
     padding-right: 10px;
     font-size: 1.3rem;
-    color: lightgray;
+    color: CYAN;
+    text-shadow: 0px 2px 10px rgba(0, 255, 255, 0.9);
     background-color: #192127;
 }
 
@@ -57,8 +59,13 @@ html,body {
     padding-left: 20px;
     padding-right: 10px;
     font-size: 1.3rem;
-    color: lightgray;
+    color: rgb(57, 255, 20);
+    text-shadow: 0px 2px 10px rgba(57, 255, 20, 0.9);
     background-color: #192127;
+}
+
+.section-heading {
+    padding-right: 12rem;
 }
 
 .enter-btn {
@@ -92,6 +99,11 @@ link:hover {
     width: 70%;
     height: auto;
     border-radius: 49%;
+    box-shadow: 0 0.5rem 1rem #222f38 !important;
+}
+
+.sidenav-inner:hover #myPhoto {
+    box-shadow: 1px 10px 30px 5px rgba(0, 255, 255, 0.8) !important;
 }
 
 .sidenav {
@@ -163,7 +175,7 @@ link:hover {
 }
 
 .sidenav-inner:hover {
-    text-shadow: 1px 3px 6px black;
+    text-shadow: 1px 3px 6px #222f38, -1px 3px 6px #222f38;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -246,20 +258,28 @@ div.my-card-content h2 strong {
   margin-right: 1.5rem;
 }
 
-.img1, .img4, .img5 {
+.img1, .img5 {
     box-shadow: 12px 20px 25px 0px #3c5363ab;
 }
 
-.img1:hover, .img4:hover, .img5:hover {
-    box-shadow: 12px 20px 25px 0px rgba(255, 0, 255, 0.507);
+.img1:hover, .img5:hover {
+    box-shadow: 18px 30px 30px 0px rgba(255, 0, 255, 0.5);
 }
 
-.img2, .img3, .img6 {
+.img2, .img6 {
     box-shadow: 12px 20px 25px 0px #3c5363ab;
 }
 
-.img2:hover, .img3:hover, .img6:hover {
-    box-shadow: 12px 20px 25px 0px rgba(0, 220, 220, 0.80);
+.img2:hover, .img6:hover {
+    box-shadow: 18px 30px 30px 0px rgba(0, 255, 255, 0.5);
+}
+
+.img3, .img4 {
+    box-shadow: 12px 20px 25px 0px #3c5363ab;
+}
+
+.img3:hover, .img4:hover {
+    box-shadow: 18px 30px 30px 0px rgba(57, 255, 20, 0.5);
 }
 
 .img__description_layer1 {
@@ -304,6 +324,29 @@ div.my-card-content h2 strong {
 }
 
 .img__wrap:hover .img__description_layer2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description_layer3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(60, 230, 20, 0.6);
+  color: #fff;
+  text-shadow: 1px 1px 2px darkslategray, -1px 0px 2px darkslategray;
+  visibility: hidden;
+  opacity: 0;
+  display: inline-block;
+  padding: 3rem 1rem;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .4s, visibility .4s;
+}
+
+.img__wrap:hover .img__description_layer3 {
   visibility: visible;
   opacity: 1;
 }

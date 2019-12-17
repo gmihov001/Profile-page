@@ -3,6 +3,29 @@ import { Link } from "react-router-dom";
 import Photo from "../../img/Myself-Copy.jpg";
 
 export const Navbar = () => {
+	ModalEmail = () => {
+		<div className="modal fade" id="myModal" role="dialog">
+			<div className="modal-dialog">
+				<div className="modal-content">
+					<div className="modal-header">
+						<button type="button" className="close" data-dismiss="modal">
+							&times;
+						</button>
+						<h4 className="modal-title">Modal Header</h4>
+					</div>
+					<div className="modal-body">
+						<p>Some text in the modal.</p>
+					</div>
+					<div className="modal-footer">
+						<button type="button" className="btn btn-default" data-dismiss="modal">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>;
+	};
+
 	return (
 		<div className="sidenav shadow-lg">
 			<div className="sidenav-inner h-card my-2">
@@ -20,19 +43,23 @@ export const Navbar = () => {
 			</div>
 			<div className="sections py-4">
 				<Link className="navlink" to="/about">
-					About me
+					About
 				</Link>
 				<Link className="navlink" to="/profile">
 					Profile
 				</Link>
 				<Link className="navlink" to="/portfolio">
-					My Projects
+					Projects
 				</Link>
 			</div>
 			<div className="social-icons text-left">
-				<a rel="me" href="#" className="button button-icon u-email" title="mail: gmihov001@gmail.com">
+				<button
+					rel="me"
+					onClick={this.ModalEmail}
+					className="button button-icon u-email"
+					title="mail: gmihov001@gmail.com">
 					<i className="fas fa-envelope-square"></i>
-				</a>
+				</button>
 				<a
 					rel="me"
 					href="https://www.linkedin.com/in/gmihov/"
