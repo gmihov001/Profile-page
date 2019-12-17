@@ -30,7 +30,7 @@ export const Home = props => (
 				<span className="lightgreen h4"> working well with people </span>,
 				<span className="blue h4"> motivation </span> and
 				<span className="lightblue h4"> dedication </span>
-				<span className="red h3"> CANNOT </span> &#125;
+				<span className="red h4"> CANNOT </span> &#125;
 			</p>
 			<p>
 				So if you are looking to hire someone with the right combination of skills, attitude and passion,

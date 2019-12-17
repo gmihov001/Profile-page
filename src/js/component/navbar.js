@@ -26,7 +26,7 @@ export const Navbar = () => {
 					Profile
 				</Link>
 				<Link className="navlink" to="/portfolio">
-					Portfolio
+					My Projects
 				</Link>
 			</div>
 			<div className="social-icons text-left">
