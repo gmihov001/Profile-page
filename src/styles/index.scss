@@ -19,44 +19,46 @@ html,body {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-weight: 300;
     margin-left: 20%;
+    line-height: 1.5 !important;
 }
 
 .secondary {
     padding-top: 30px;
     padding-left: 30px;
+    padding-right: 10px;
     color: darkslategray;
 }
 
 .home {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
     font-size: 1.3rem;
     color: lightgray;
     background-color: #192127;
-    line-height: 2;
 }
 
 .about {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
     font-size: 1.3rem;
     color: lightgray;
     background-color: #192127;
-    line-height: 2;
 }
 
 .portfolio {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
     font-size: 1.3rem;
     color: lightgray;
     background-color: #192127;
-    line-height: 2;
 }
 
 .profile {
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
     font-size: 1.3rem;
     color: lightgray;
     background-color: #192127;
-    line-height: 2;
 }
 
 .enter-btn {
@@ -175,7 +177,7 @@ link:hover {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 0.5rem;
     font-weight: 300 !important;
-    line-height: 1.2;
+    line-height: 1.5 !important;
 }
 
 div.my-card-content h2 strong {
