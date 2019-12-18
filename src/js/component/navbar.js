@@ -29,43 +29,38 @@ export class Navbar extends React.Component {
 						</Link>
 						<div className="my-card-content text-center my-3 pt-2">
 							<h2>
-								George <strong>Mihov</strong>
+								GEORGE <strong>MIHOV</strong>
 							</h2>
-							<h4>Full-Stack Web Developer</h4>
+							<h4>FULL-STACK WEB DEVELOPER</h4>
 						</div>
 					</div>
 					<div className="sections py-4">
 						<Link className="navlink" to="/about">
-							About
+							ABOUT
 						</Link>
 						<Link className="navlink" to="/profile">
-							Profile
+							PROFILE
 						</Link>
 						<Link className="navlink" to="/portfolio">
-							Projects
+							PROJECTS
 						</Link>
 					</div>
-					<div className="social-icons text-left">
-						<Modal show={this.state.show} handleClose={this.hideModal}></Modal>
-						<button
-							type="button"
-							className="btn btn-primary"
+					<div className="social-icons text-left pl-3">
+						<Modal show={this.state.show} handleClose={this.hideModal} />
+						<a
+							href="#"
+							className="button button-icon"
 							title="mail: gmihov001@gmail.com"
 							onClick={this.showModal}>
 							<i className="fas fa-envelope-square"></i>
-						</button>
+						</a>
 						<a
-							rel="me"
 							href="https://www.linkedin.com/in/gmihov/"
 							className="button button-icon"
 							title="linkedin: gmihov">
 							<i className="fab fa-linkedin"></i>
 						</a>
-						<a
-							rel="me"
-							href="https://github.com/gmihov001"
-							className="button button-icon"
-							title="github: gmihov001">
+						<a href="https://github.com/gmihov001" className="button button-icon" title="github: gmihov001">
 							<i className="fab fa-github-square"></i>
 						</a>
 					</div>

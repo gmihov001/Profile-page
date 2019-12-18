@@ -99,11 +99,11 @@ link:hover {
     width: 70%;
     height: auto;
     border-radius: 49%;
-    box-shadow: 0 0.5rem 1rem #222f38 !important;
+    box-shadow: 0.4rem 0.8rem 1rem #222f38 !important;
 }
 
 .sidenav-inner:hover #myPhoto {
-    box-shadow: 1px 10px 30px 5px rgba(0, 255, 255, 0.8) !important;
+    box-shadow: 1px 10px 30px 5px rgba(34, 47, 56, 0.8) !important;
 }
 
 .sidenav {
@@ -118,7 +118,6 @@ link:hover {
   padding-top: 20px;
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .sidenav:hover {

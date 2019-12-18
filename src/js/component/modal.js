@@ -7,8 +7,8 @@ export const Modal = ({ show, handleClose }) => {
 		<div className={showHideClassname}>
 			<div className="modal-main rounded shadow border border-primary">
 				<div className="modal-content">
-					<div className="modal-header"></div>
-					<div className="modal-body">Modal</div>
+					<div className="modal-header">Please reach me at:</div>
+					<div className="modal-body">gmihov001@gmail.com</div>
 					<div className="modal-footer">
 						<button type="button" className="btn btn-primary" data-dismiss="modal" onClick={handleClose}>
 							Close
