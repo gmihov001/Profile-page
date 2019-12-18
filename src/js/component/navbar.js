@@ -1,12 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Modal } from "./modal";
 import Photo from "../../img/Myself-Copy.jpg";
 
 export class Navbar extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
+	constructor() {
+		super();
+		this.state = { show: false };
 	}
+
+	showModal = () => {
+		this.setState({ show: true });
+	};
+
+	hideModal = () => {
+		this.setState({ show: false });
+	};
 
 	render() {
 		return (
@@ -37,34 +46,14 @@ export class Navbar extends React.Component {
 						</Link>
 					</div>
 					<div className="social-icons text-left">
+						<Modal show={this.state.show} handleClose={this.hideModal} />
 						<button
-							className="button button-icon u-email"
+							type="button"
+							className="btn btn-primary"
 							title="mail: gmihov001@gmail.com"
-							data-target="#myModal">
+							onClick={this.showModal}>
 							<i className="fas fa-envelope-square"></i>
 						</button>
-
-						<div className="modal fade" id="myModal" role="dialog">
-							<div className="modal-dialog">
-								<div className="modal-content">
-									<div className="modal-header">
-										<button type="button" className="close" data-dismiss="modal">
-											&times;
-										</button>
-										<h4 className="modal-title">Modal Header</h4>
-									</div>
-									<div className="modal-body">
-										<p>Some text in the modal.</p>
-									</div>
-									<div className="modal-footer">
-										<button type="button" className="btn btn-default" data-dismiss="modal">
-											Close
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
 						<a
 							rel="me"
 							href="https://www.linkedin.com/in/gmihov/"
