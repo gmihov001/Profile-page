@@ -6,20 +6,17 @@ export const Modal = ({ show, handleClose }) => {
 	return (
 		<div className={showHideClassname}>
 			<div className="modal-main rounded shadow border border-primary">
-                <div class="modal-content">
-      <div class="modal-header">
-      </div>
-      <div class="modal-body">
-        Modal
-      </div>
-      <div class="modal-footer">
-				<button type="button" className="btn btn-primary" data-dismiss="modal" onClick={handleClose}>
-					Close
-				</button>
+				<div className="modal-content">
+					<div className="modal-header"></div>
+					<div className="modal-body">Modal</div>
+					<div className="modal-footer">
+						<button type="button" className="btn btn-primary" data-dismiss="modal" onClick={handleClose}>
+							Close
+						</button>
+					</div>
+				</div>
 			</div>
-            </div>
 		</div>
-    </div>    
 	);
 };
 
