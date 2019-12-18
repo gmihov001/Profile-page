@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Modal } from "./modal";
+import { Modal } from "./modal.js";
 import Photo from "../../img/Myself-Copy.jpg";
 
 export class Navbar extends React.Component {
@@ -46,7 +46,7 @@ export class Navbar extends React.Component {
 						</Link>
 					</div>
 					<div className="social-icons text-left">
-						<Modal show={this.state.show} handleClose={this.hideModal} />
+						<Modal show={this.state.show} handleClose={this.hideModal}></Modal>
 						<button
 							type="button"
 							className="btn btn-primary"

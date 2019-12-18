@@ -359,3 +359,34 @@ div.my-card-content h2 strong {
 .img__wrap:hover .img__description {
   transform: translateY(0);
 }
+
+/* --- Modal --- */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+}  
+
+.modal-main {
+  position: fixed;
+  background-color: rgb(245,245,245);
+  color: darkslategrey;
+  width: 50%;
+  height: 30vh;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
