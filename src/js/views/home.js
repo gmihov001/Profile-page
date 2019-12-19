@@ -13,18 +13,18 @@ export class Home extends React.Component {
 			<div className="wrapper home">
 				<div className="mt-5">
 					<p className="text-center">
-						<span className="cyan-shadow h2"> HELLO </span>and
+						<span className="cyan-shadow h2"> Welcome </span>and
 						<span className="cyan-shadow h2"> thank you </span>
-						for visitng my page!
+						for visitng!
 					</p>
-					<p className="h2">
-						<span className="text-effect1"> HERE </span>
-						<span className="h1 mt-5"> you can: </span>{" "}
+					<p className="h2 d-inline-block">
+						<span className="text-effect1"> on this site </span>
+						<span className="h1 mt-5 align-bottom"> you can: </span>{" "}
 					</p>
 					<p className="text-left pl-5">
 						Find out a little more
 						<Link to="/about">
-							<button type="text" className="enter-btn h4 m-3 px-3">
+							<button type="text" className="glow-on-hover h4 m-2">
 								ABOUT
 							</button>
 						</Link>
@@ -34,7 +34,7 @@ export class Home extends React.Component {
 						<p className="text-center">
 							Check out my
 							<Link to="/portfolio">
-								<button type="text" className="enter-btn h4 m-3 px-3">
+								<button type="text" className="glow-on-hover h4 m-2">
 									PROJECTS
 								</button>
 							</Link>
@@ -42,7 +42,7 @@ export class Home extends React.Component {
 						<p className="text-right pr-5">
 							Review my professional
 							<Link to="/profile">
-								<button type="text" className="enter-btn h4 m-3 px-3">
+								<button type="text" className="glow-on-hover h4 m-2">
 									PROFILE
 								</button>
 							</Link>
