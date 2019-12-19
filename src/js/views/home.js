@@ -14,7 +14,7 @@ export class Home extends React.Component {
 				<div className="mt-5">
 					<p className="text-center">
 						<span className="cyan-shadow h2"> HELLO </span>and
-						<span className="cyan-shadow h2 ml-5 pl-5"> thank you </span>
+						<span className="cyan-shadow h2"> thank you </span>
 						for visitng my page!
 					</p>
 					<p className="h2">
