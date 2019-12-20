@@ -24,36 +24,10 @@ export class Home extends React.Component {
 						<div>&nbsp;</div>
 						<div>&nbsp;</div>
 					</div>
-					<div className="row mt-5 d-block">
-						<div className="h2">
-							<span className="text-effect1">HERE YOU CAN: </span>
-						</div>
-					</div>
-					<div className="row d-flex justify-content-between mt-4 px-5">
-						<div className="column">
-							Find out a little more
-							<Link to="/about">
-								<button type="text" className="glow-on-hover h4 m-2">
-									ABOUT
-								</button>
-							</Link>
-							me
-						</div>
-						<div className="column">
-							Check out my
-							<Link to="/portfolio">
-								<button type="text" className="glow-on-hover h4 m-2">
-									PROJECTS
-								</button>
-							</Link>
-						</div>
-						<div className="column">
-							Review my professional
-							<Link to="/profile">
-								<button type="text" className="glow-on-hover h4 m-2">
-									PROFILE
-								</button>
-							</Link>
+					<div className="row mt-5 d-block px-5">
+						<div className="my-5">&nbsp;</div>
+						<div className="h2 mt-5">
+							<span className="text-effect1"> &lsaquo; &lsaquo; SELECT A SECTION </span>
 						</div>
 					</div>
 				</div>
@@ -61,3 +35,34 @@ export class Home extends React.Component {
 		);
 	}
 }
+
+/*
+
+<div className="row h4 d-flex justify-content-around mt-2 px-5">
+						<div className="column slideInUp1">
+							Find out more
+							<Link to="/about">
+								<button type="text" className="glow-on-hover h3 m-2">
+									&lsaquo; about me /&rsaquo;
+								</button>
+							</Link>
+						</div>
+						<div className="column slideInUp2">
+							Check out my
+							<Link to="/portfolio">
+								<button type="text" className="glow-on-hover h3 m-2">
+									&lsaquo; projects /&rsaquo;
+								</button>
+							</Link>
+						</div>
+						<div className="column slideInUp3">
+							Review my professional
+							<Link to="/profile">
+								<button type="text" className="glow-on-hover h3 m-2">
+									&lsaquo; profile /&rsaquo;
+								</button>
+							</Link>
+						</div>
+                    </div>
+                    
+*/

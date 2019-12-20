@@ -48,16 +48,16 @@ html, body {
     font-size: 1.3rem;
     color: magenta;
     text-shadow: 0px 2px 10px rgba(255, 0, 255, 0.9);
-    background-color: #192127;
+    background-color: rgb(5, 6, 23);
 }
 
 .portfolio {
     padding-left: 20px;
     padding-right: 10px;
     font-size: 1.3rem;
-    color: CYAN;
+    color: cyan;
     text-shadow: 0px 2px 10px rgba(0, 255, 255, 0.9);
-    background-color: #192127;
+    background-color: rgb(5, 6, 23);; 
 }
 
 .profile {
@@ -66,7 +66,7 @@ html, body {
     font-size: 1.3rem;
     color: rgb(57, 255, 20);
     text-shadow: 0px 2px 10px rgba(57, 255, 20, 0.9);
-    background-color: #192127;
+    background-color: rgb(5, 6, 23);
 }
 
 .section-heading {
@@ -99,7 +99,7 @@ html, body {
 }
 
 .sidenav:hover {
-    background-color: #222f38;
+    background-color: rgb(25, 38, 58);
 }
 
 .sidenav-inner {
@@ -121,6 +121,14 @@ html, body {
 
 .sidenav:hover .h-card {
     opacity: 1;
+}
+
+.sidenav:hover #myPhoto {
+    opacity: 0;
+    animation: 4s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .footer {
@@ -174,7 +182,6 @@ div.my-card-content h4 {
     width: auto;
     padding: 5px 20px;
     height: auto;
-    border: solid 1px rgba(0, 255, 255, 0.7);
     outline: none;
     color: rgba(0, 255, 255, 0.8);
     background: rgb(5, 6, 23);
@@ -185,14 +192,6 @@ div.my-card-content h4 {
     animation: 5s ease 2s normal forwards 1 fadein;
     -webkit-animation: 5s ease 2s normal forwards 1 fadein;
     opacity:0
-}
-
-@keyframes fadein{from{opacity:0}
-to{opacity:1}
-}
-
-@-webkit-keyframes fadein{from{opacity:0}
-to{opacity:1}
 }
 
 .glow-on-hover:before {
@@ -236,12 +235,6 @@ to{opacity:1}
     border-radius: 2px;
 }
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-
 link {
     text-decoration: none;
 }
@@ -272,10 +265,12 @@ link:hover {
     text-decoration: none;
     color: white;
     display: block;
+    animation: glow 10s linear 3s 2 alternate;
+    -webkit-animation: glow 10s linear 3s 2 alternate;
 }
 
 .navlink:hover {
-    background-color: #222f38;
+    background-color: rgb(5, 6, 23);
     box-shadow: 5px 5px 30px 10px #0ff;
     color: #0ff;
     border-radius: 5px;
@@ -292,6 +287,73 @@ link:hover {
     padding-left: 3px;
 }
 
+/* --- Keyframes --- */
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+    from{opacity:0}
+    to{opacity:1}
+}
+
+@-webkit-keyframes fadein {
+    from{opacity:0}
+    to{opacity:1}
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 3px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan, 0 0 60px cyan, 0 0 50px cyan, 0 0 40px cyan, 0 0 30px cyan, 0 0 20px cyan;
+  }
+}
+
+.slideInUp1 {
+    animation: 5s ease 0s normal forwards 1 slideInUp;
+    -webkit-animation: 4s ease 0s normal forwards 1 slideInUp;
+    opacity: 0;
+}
+
+.slideInUp2 {
+    animation: 4s ease 1s normal forwards 1 slideInUp;
+    -webkit-animation: 4s ease 1s normal forwards 1 slideInUp;
+    opacity: 0;
+}
+
+.slideInUp3 {
+    animation: 3s ease 2s normal forwards 1 slideInUp;
+    -webkit-animation: 4s ease 2s normal forwards 1 slideInUp;
+    opacity: 0;
+}
 
 /* --Colors-- */
 
@@ -496,12 +558,13 @@ link:hover {
 .text-effect1 {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 7rem;
-    font-weight: 500;
-    color: #2c3d4980;
-    margin-right: -3rem;
-    margin-left: 2rem;
+    font-weight: 700;
+    color: rgba(25, 38, 58, 0.733);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    text-shadow: rgba(10, 10, 10, 0.5) 0px 3px 3px;
+    text-shadow: rgba(10, 10, 10, 0.7) -5px 8px 7px;
+    animation: 3s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    opacity: 0.1;
 }

@@ -45,7 +45,7 @@ export class Navbar extends React.Component {
 							PROJECTS
 						</Link>
 					</div>
-					<div className="social-icons text-center p-3 mt-3">
+					<div className="social-icons text-left p-3 mt-3">
 						<Modal show={this.state.show} handleClose={this.hideModal} />
 						<a
 							href="#"
