@@ -12,16 +12,18 @@ export class Home extends React.Component {
 		return (
 			<div className="wrapper home">
 				<div className="mt-5">
-					<p className="text-center">
-						<span className="cyan-shadow h2"> Welcome </span>and
-						<span className="cyan-shadow h2"> thank you </span>
+					<p className="text-center h2">
+						<span className="cyan-shadow"> Welcome </span>and
+						<span className="cyan-shadow"> thank you </span>
 						for visitng!
 					</p>
+					<p>&nbsp;</p>
 					<p className="h2 d-inline-block">
 						<span className="text-effect1"> on this site </span>
-						<span className="h1 mt-5 align-bottom"> you can: </span>{" "}
+						<span className="h1 mt-5 align-middle"> you can: </span>{" "}
 					</p>
-					<p className="text-left pl-5">
+					<p>&nbsp;</p>
+					<p className="text-right pr-5">
 						Find out a little more
 						<Link to="/about">
 							<button type="text" className="glow-on-hover h4 m-2">
@@ -39,7 +41,7 @@ export class Home extends React.Component {
 								</button>
 							</Link>
 						</p>
-						<p className="text-right pr-5">
+						<p className="text-left pl-5">
 							Review my professional
 							<Link to="/profile">
 								<button type="text" className="glow-on-hover h4 m-2">
