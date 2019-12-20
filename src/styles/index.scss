@@ -80,10 +80,6 @@ html, body {
     box-shadow: 0.4rem 0.8rem 1rem #222f38 !important;
 }
 
-.sidenav-inner:hover #myPhoto {
-    box-shadow: 1px 10px 30px 5px rgba(34, 47, 56, 0.8) !important;
-}
-
 .sidenav {
   height: 100%;
   width: 20%;
@@ -115,20 +111,20 @@ html, body {
     text-decoration: none;
 }
 
-.h-card {
+.my-card-avatar {
     opacity: 0;
+    animation: 5s ease 4s normal forwards 1 fadein;
+    -webkit-animation: 5s ease 4s normal forwards 1 fadein;
 }
 
-.sidenav:hover .h-card {
-    opacity: 1;
+.my-card-avatar:hover #myPhoto {
+    box-shadow: -2px 8px 30px 5px #000 !important;
 }
 
-.sidenav:hover #myPhoto {
+.my-card-content {
     opacity: 0;
-    animation: 4s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 4s ease 0s normal forwards 1 fadein;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
+    animation: 4s ease 3s normal forwards 1 fadein;
+    -webkit-animation: 4s ease 3s normal forwards 1 fadein;
 }
 
 .footer {
@@ -564,7 +560,7 @@ link:hover {
     -moz-background-clip: text;
     background-clip: text;
     text-shadow: rgba(10, 10, 10, 0.7) -5px 8px 7px;
-    animation: 3s ease 0s normal forwards 1 fadein;
-    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 5s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 5s ease 0s normal forwards 1 fadein;
     opacity: 0.1;
 }
