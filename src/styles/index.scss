@@ -1,20 +1,19 @@
 /* --- Main Sections --- */
 
-html,body {
+html, body {
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-weight: 300;
-    height: 100%;
     background-color: rgb(245,245,245);
     color: darkslategray;
     text-decoration: none;
 }
 
 #app {
-    height: 100%;
+    text-decoration: none;
 }
 
-#layout-div {
-    height: 100%;
+.layout-div {
+    background-color: transparent;
 }
 
 .wrapper {
@@ -22,7 +21,6 @@ html,body {
     font-weight: 300;
     margin-left: 20%;
     line-height: 1.5 !important;
-    height: 100%;
 }
 
 .secondary {
@@ -37,7 +35,11 @@ html,body {
     padding-right: 10px;
     font-size: 1.3rem;
     color: lightgray;
-    background-color: #192127;
+    background-color: rgb(5, 6, 23);
+    background-image: url("../img/bulb.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .about {
@@ -86,10 +88,10 @@ html,body {
   height: 100%;
   width: 20%;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   top: 0;
   left: 0;
-  background-color: #3c5363;
+  background-color: rgb(5, 6, 23);
   overflow-x: hidden;
   padding-top: 20px;
   color: white;
@@ -97,7 +99,7 @@ html,body {
 }
 
 .sidenav:hover {
-    background-color: #3c5363;
+    background-color: #222f38;
 }
 
 .sidenav-inner {
@@ -111,6 +113,14 @@ html,body {
     text-shadow: 1px 3px 6px #222f38, -1px 3px 6px #222f38;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.h-card {
+    opacity: 0;
+}
+
+.sidenav:hover .h-card {
+    opacity: 1;
 }
 
 .footer {
@@ -164,10 +174,10 @@ div.my-card-content h4 {
     width: auto;
     padding: 5px 20px;
     height: auto;
-    border: solid 1px rgba(255, 0, 255, 0.7);
+    border: solid 1px rgba(0, 255, 255, 0.7);
     outline: none;
-    color: rgba(255, 0, 255, 0.8);
-    background: #192127;
+    color: rgba(0, 255, 255, 0.8);
+    background: rgb(5, 6, 23);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -203,7 +213,7 @@ to{opacity:1}
 }
 
 .glow-on-hover:active {
-    color: #192127;
+    color: rgb(5, 6, 23);;
 }
 
 .glow-on-hover:active:after {
@@ -220,7 +230,7 @@ to{opacity:1}
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #192127;
+    background: rgb(5, 6, 23);
     left: 0;
     top: 0;
     border-radius: 2px;
@@ -264,6 +274,14 @@ link:hover {
     display: block;
 }
 
+.navlink:hover {
+    background-color: #222f38;
+    box-shadow: 5px 5px 30px 10px #0ff;
+    color: #0ff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 .navlink:hover:before {
     content: "{"; 
     padding-right: 3px;
@@ -274,13 +292,6 @@ link:hover {
     padding-left: 3px;
 }
 
-.navlink:hover {
-    background-color: #222f38;
-    box-shadow: 5px 5px 30px 10px #0ff;
-    color: #0ff;
-    border-radius: 5px;
-    text-decoration: none;
-}
 
 /* --Colors-- */
 

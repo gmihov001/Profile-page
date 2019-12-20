@@ -11,45 +11,51 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="wrapper home">
-				<div className="mt-5">
-					<p className="text-center h2">
-						<span className="cyan-shadow"> Welcome </span>and
-						<span className="cyan-shadow"> thank you </span>
-						for visitng!
-					</p>
-					<p>&nbsp;</p>
-					<p className="h2 d-inline-block">
-						<span className="text-effect1"> on this site </span>
-						<span className="h1 mt-5 align-middle"> you can: </span>{" "}
-					</p>
-					<p>&nbsp;</p>
-					<p className="text-right pr-5">
-						Find out a little more
-						<Link to="/about">
-							<button type="text" className="glow-on-hover h4 m-2">
-								ABOUT
-							</button>
-						</Link>
-						me
-					</p>
-					<p className="pt-1 mb-3">
-						<p className="text-center">
+				<div className="row mt-5 d-block">
+					<div className="row my-5 d-block">
+						<div className="text-center h2">
+							<span className="cyan-shadow"> WELCOME </span>AND
+							<span className="cyan-shadow"> THANK YOU </span>
+							FOR VISITING!
+						</div>
+						<div className="my-5">&nbsp;</div>
+						<div className="my-5">&nbsp;</div>
+						<div>&nbsp;</div>
+						<div>&nbsp;</div>
+						<div>&nbsp;</div>
+					</div>
+					<div className="row mt-5 d-block">
+						<div className="h2">
+							<span className="text-effect1">HERE YOU CAN: </span>
+						</div>
+					</div>
+					<div className="row d-flex justify-content-between mt-4 px-5">
+						<div className="column">
+							Find out a little more
+							<Link to="/about">
+								<button type="text" className="glow-on-hover h4 m-2">
+									ABOUT
+								</button>
+							</Link>
+							me
+						</div>
+						<div className="column">
 							Check out my
 							<Link to="/portfolio">
 								<button type="text" className="glow-on-hover h4 m-2">
 									PROJECTS
 								</button>
 							</Link>
-						</p>
-						<p className="text-left pl-5">
+						</div>
+						<div className="column">
 							Review my professional
 							<Link to="/profile">
 								<button type="text" className="glow-on-hover h4 m-2">
 									PROFILE
 								</button>
 							</Link>
-						</p>
-					</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		);
