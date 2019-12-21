@@ -13,7 +13,7 @@ export class Home extends React.Component {
 			<div className="wrapper home">
 				<div className="row mt-5 d-block">
 					<div className="row my-5 d-block">
-						<div className="text-center h2">
+						<div className="text-center h1">
 							<span className="cyan-shadow"> WELCOME </span>AND
 							<span className="cyan-shadow"> THANK YOU </span>
 							FOR VISITING!

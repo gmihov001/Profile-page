@@ -10,47 +10,50 @@ export const About = () => {
 					<span className="h3 section-heading"> ABOUT ME </span>
 				</div>
 
-				<div className="row row2 d-flex secondary h5">
-					<div className="col-8 my-4 p-3 pr-5 mr-n5 bg-none border shadow-lg">
+				<div className="row row2 my-4 d-inline-flex justify-content-around secondary h5">
+					<div className="col-7 my-1 p-4 mx-2 bg-light border shadow-lg">
 						<span>
 							I am based in South Florida. A native of Bulgaria, I moved to the US when I was 20, with one
-							suitcase worth of clothes (of questionable taste) and $227. I put myself through college
+							suitcase worth of clothes (of questionable taste :) ) and $227. I put myself through college
 							without any assistance and built a career in HR.
 						</span>
 					</div>
-					<div className="col-4 my-4 mt-0 py-3 bg-light border shadow-lg">
+					<div className="col-4 my-1 mt-0 p-4 mr-3 bg-dark text-white border shadow-lg">
 						<span>This experience taught me that nothing is impossible and to never give up.</span>
 					</div>
 				</div>
 
-				<div className="row row3 d-flex secondary h5">
-					<div className="col-4 mx-0 my-4 py-3">
+				<div className="row row3 my-2 d-inline-flex justify-content-around secondary h5">
+					<div className="col-5 mx-2 my-1 border p-4">
 						<span>
 							<br />
 						</span>
 					</div>
-					<div className="col-6 my-4 py-3 bg-dark text-white border shadow-lg">
+					<div className="col-6 my-1 p-4 mr-3 bg-secondary text-white border shadow-lg">
 						<span>
-							My hobby is coding, coding, and coding. I strive to be the best at what I do so I normally
-							invest all of my free time into advancing my knowledge and skills.
+							My hobbies are coding, coding, and coding. I strive to be the best at what I do, so I
+							normally invest all of my free time into advancing my knowledge and skills.
 						</span>
 					</div>
 				</div>
 
-				<div className="row row4 d-flex secondary h5">
-					<div className="col-6 my-4 mx-0 py-3 bg-secondary text-white border shadow-lg">
-						<span>
-							I love to travel and have been in places from Turkey to Peru and from Norway to Egypt.
-							<br />
-							As Mark Twain wrote,
-							<span className="purple">
-								{" "}
+				<div className="row row4 my-2 d-inline-flex justify-content-around secondary h5">
+					<div className="col-6 my-1 mx-2 p-4 bg-secondary text-white border shadow-lg">
+						When I can, I love to travel and have been in places from Turkey to Peru and from Norway to
+						Egypt.
+						<br />
+						With every next trip I become better at communicating with and understanding people from
+						different cultures. Being able to communicate effectively and understand those around us is one
+						of the most crucial soft skills in the workplace.
+					</div>
+					<div className="col-5 my-1 mr-3 p-4 pr-5 bg-dark text-right text-white border shadow-lg">
+						<span className="d-block">
+							<span>
 								<i>&quot;Travel is fatal to prejudice, bigotry, and narrow-mindedness&quot;</i>{" "}
 							</span>
 							<br />
-							With every next trip I become better at communicating with and understanding people from
-							different cultures. Being able to communicate effectively and understand those around us is
-							one of the most crucial soft skills in the workplace.
+							<br />
+							<span> ~ Mark Twain </span>
 						</span>
 					</div>
 				</div>

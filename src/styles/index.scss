@@ -24,9 +24,6 @@ html, body {
 }
 
 .secondary {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 10px;
     color: darkslategray;
 }
 
@@ -319,18 +316,18 @@ link:hover {
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
   }
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 3px #fff;
   }
   
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan, 0 0 60px cyan, 0 0 50px cyan, 0 0 40px cyan, 0 0 30px cyan, 0 0 20px cyan;
-  }
+    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;  
+    }
 }
 
 .slideInUp1 {
