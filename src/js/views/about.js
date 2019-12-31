@@ -6,11 +6,11 @@ export const About = () => {
 	return (
 		<div className="wrapper">
 			<div className="container-fluid">
-				<div className="row row1 about py-5 d-flex justify-content-end">
+				<div className="row row1 about mb-5 py-5 d-flex justify-content-end">
 					<span className="h3 section-heading"> ABOUT ME </span>
 				</div>
 
-				<div className="row row2 my-5 d-inline-flex justify-content-around secondary h5">
+				<div className="row row2 my-3 d-inline-flex justify-content-around secondary h5">
 					<div className="col-7 bg-light border shadow-lg">
 						<span>
 							I am based in South Florida. A native of Bulgaria, I moved to the US when I was 20, with one
@@ -23,7 +23,7 @@ export const About = () => {
 					</div>
 				</div>
 
-				<div className="row row3 my-5 d-flex justify-content-around secondary h5">
+				<div className="row row3 my-3 d-flex justify-content-around secondary h5">
 					<div className="col-5">
 						<span>
 							<br />
@@ -37,24 +37,23 @@ export const About = () => {
 					</div>
 				</div>
 
-				<div className="row row4 my-5 d-inline-flex justify-content-around secondary h5">
-					<div className="col-6 bg-secondary text-white border shadow-lg">
-						When I can, I love to travel and have been in places from Turkey to Peru and from Norway to
-						Egypt.
-						<br />
-						With every next trip I become better at communicating with and understanding people from
-						different cultures. Being able to communicate effectively and understand those around us is one
-						of the most crucial soft skills in the workplace.
+				<div className="row row4 py-3 d-block bg-dark text-white my-3 justify-content-around secondary h5">
+					<div className="col-12 d-block text-right mb-3 pr-3">
+						<i>&quot;Travel is fatal to prejudice, bigotry, and narrow-mindedness&quot;</i>
+						<br />~ Mark Twain
 					</div>
-					<div className="col-5 bg-dark text-right text-white border shadow-lg">
-						<span className="d-block">
-							<span>
-								<i>&quot;Travel is fatal to prejudice, bigotry, and narrow-mindedness&quot;</i>{" "}
-							</span>
+					<div className="col-12 d-inline-flex justify-content-around">
+						<div className="col-6 bg-secondary text-white border shadow-l">
+							When I can, I love to travel and have been in places from Turkey to Peru and from Norway to
+							Egypt.
 							<br />
-							<br />
-							<span> ~ Mark Twain </span>
-						</span>
+							Every next trip makes it ever easier for me to understand other cultures and mentalities and
+							to communicate more effecrtively with people from different backgrounds.
+						</div>
+						<div className="col-5 bg-white text-dark border shadow-l">
+							From my experiene, being able to communicate effectively and understand those around us is
+							one of the most crucial soft skills in the workplace.
+						</div>
 					</div>
 				</div>
 			</div>
