@@ -10,16 +10,16 @@ export const About = () => {
 					<span className="h3 section-heading"> ABOUT ME </span>
 				</div>
 
-				<div className="row row2 my-3 d-inline-flex justify-content-around secondary h5">
-					<div className="col-7 bg-light border shadow-lg">
-						<span>
-							I am based in South Florida. A native of Bulgaria, I moved to the US when I was 20, with one
-							suitcase worth of clothes (of questionable taste :) ) and $227. I put myself through college
-							without any assistance and built a career in HR.
-						</span>
-					</div>
-					<div className="col-4 bg-dark text-white border shadow-lg">
-						<span>This experience taught me that nothing is impossible and to never give up.</span>
+				<div className="row row2 my-3 mx-3 secondary h5">
+					<div className="col-12 py-3 d-inline-flex justify-content-around bg-white text-dark border shadow-lg">
+						<div className="col-7">
+							I am based in South Florida. <br /> A native of Bulgaria, I moved to the US when I was 20,
+							with one suitcase worth of clothes (of questionable taste :) ) and $227. I put myself
+							through college without any assistance and built a career in HR.
+						</div>
+						<div className="col-4 my-4 bg-dark text-white border shadow-lg">
+							<span>This experience taught me that nothing is impossible and to never give up.</span>
+						</div>
 					</div>
 				</div>
 
@@ -37,12 +37,12 @@ export const About = () => {
 					</div>
 				</div>
 
-				<div className="row row4 py-3 d-block bg-dark text-white my-3 justify-content-around secondary h5">
+				<div className="row row4 py-3 d-block bg-dark text-white mx-3 my-3 secondary h5">
 					<div className="col-12 d-block text-right mb-3 pr-3">
 						<i>&quot;Travel is fatal to prejudice, bigotry, and narrow-mindedness&quot;</i>
 						<br />~ Mark Twain
 					</div>
-					<div className="col-12 d-inline-flex justify-content-around">
+					<div className="col-12 mb-3 d-inline-flex justify-content-around">
 						<div className="col-6 bg-secondary text-white border shadow-l">
 							When I can, I love to travel and have been in places from Turkey to Peru and from Norway to
 							Egypt.
