@@ -16,7 +16,7 @@ export const Layout = () => {
 		<div className="layout-div d-flex flex-column h-100">
 			<BrowserRouter>
 				<ScrollToTop>
-					<Navbar />
+					<Navbar className="d-block d-xs-none d-sm-none" />
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route path="/about" component={About} />

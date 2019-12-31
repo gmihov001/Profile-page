@@ -19,7 +19,7 @@ export class Navbar extends React.Component {
 
 	render() {
 		return (
-			<>
+			<div>
 				<div className="sidenav shadow-lg">
 					<div className="sidenav-inner h-card my-2">
 						<Link to="/">
@@ -46,7 +46,9 @@ export class Navbar extends React.Component {
 						</Link>
 					</div>
 					<div className="social-icons text-left p-3 mt-3">
-						<Modal show={this.state.show} handleClose={this.hideModal} />
+						<Modal show={this.state.show} handleClose={this.hideModal}>
+							<br />
+						</Modal>
 						<a
 							href="#"
 							className="button button-icon"
@@ -65,7 +67,7 @@ export class Navbar extends React.Component {
 						</a>
 					</div>
 				</div>
-			</>
+			</div>
 		);
 	}
 }

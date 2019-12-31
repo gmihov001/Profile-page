@@ -1,7 +1,7 @@
 /* --- Main Sections --- */
 
 html, body {
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif !important;
     font-weight: 300;
     background-color: rgb(245,245,245);
     color: darkslategray;
@@ -108,20 +108,8 @@ html, body {
     text-decoration: none;
 }
 
-.my-card-avatar {
-    opacity: 0;
-    animation: 5s ease 4s normal forwards 1 fadein;
-    -webkit-animation: 5s ease 4s normal forwards 1 fadein;
-}
-
-.my-card-avatar:hover #myPhoto {
+.sidenav:hover #myPhoto {
     box-shadow: -2px 8px 30px 5px #000 !important;
-}
-
-.my-card-content {
-    opacity: 0;
-    animation: 4s ease 3s normal forwards 1 fadein;
-    -webkit-animation: 4s ease 3s normal forwards 1 fadein;
 }
 
 .footer {
@@ -136,13 +124,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: 1.5 !important;
 }
 
-div.my-card-content h2 strong {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+strong {
+    font-weight: bold;
 }
 
 div.my-card-content h4 {
-    color: CYAN;
+    color: cyan;
     text-shadow: 0px 2px 10px rgba(0, 255, 255, 0.9);
 }
 
@@ -282,10 +269,31 @@ link:hover {
 
 /* --- Keyframes --- */
 
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+@keyframes glow {
+  from {
+    text-shadow: 0 0 3px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+  }
+}
+
+@-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 3px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
+  }
+}
+
+/*
+.slideInUp1 {
+    animation: 5s ease 0s normal forwards 1 slideInUp;
+    -webkit-animation: 4s ease 0s normal forwards 1 slideInUp;
+    opacity: 0;
 }
 
 @keyframes slideInUp {
@@ -300,6 +308,7 @@ link:hover {
   }
 }
 
+
 @keyframes fadein {
     from{opacity:0}
     to{opacity:1}
@@ -309,44 +318,7 @@ link:hover {
     from{opacity:0}
     to{opacity:1}
 }
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 3px #fff;
-  }
-  
-  to {
-    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;
-  }
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 3px #fff;
-  }
-  
-  to {
-    text-shadow: 0 0 10px #fff, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 60px cyan, 0 0 70px cyan;  
-    }
-}
-
-.slideInUp1 {
-    animation: 5s ease 0s normal forwards 1 slideInUp;
-    -webkit-animation: 4s ease 0s normal forwards 1 slideInUp;
-    opacity: 0;
-}
-
-.slideInUp2 {
-    animation: 4s ease 1s normal forwards 1 slideInUp;
-    -webkit-animation: 4s ease 1s normal forwards 1 slideInUp;
-    opacity: 0;
-}
-
-.slideInUp3 {
-    animation: 3s ease 2s normal forwards 1 slideInUp;
-    -webkit-animation: 4s ease 2s normal forwards 1 slideInUp;
-    opacity: 0;
-}
+*/
 
 /* --Colors-- */
 
@@ -522,19 +494,19 @@ link:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 150;
   background: rgba(0, 0, 0, 0.6);
 }  
 
 .modal-main {
   position: fixed;
   background-color: white;
-  color: #1f4864;
+  color: darkslategray;
   width: 50%;
   height: auto;
   top: 30%;
   left: 50%;
-  z-index: 100;
+  z-index: 200;
   transform: translate(-50%, -50%);
 }
 

@@ -3,6 +3,10 @@ import { bool, func } from "prop-types";
 
 export const Modal = ({ show, handleClose }) => {
 	const showHideClassname = show ? "modal display-block" : "modal display-none";
+	console.log(show);
+	console.log(showHideClassname);
+	console.log("Modal is open");
+
 	return (
 		<div className={showHideClassname}>
 			<div className="modal-main rounded shadow border border-primary">
