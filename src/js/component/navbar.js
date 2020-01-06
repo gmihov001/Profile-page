@@ -4,8 +4,8 @@ import { Modal } from "./modal.js";
 import Photo from "../../img/Myself-Copy.jpg";
 
 export class Navbar extends React.Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = { show: false };
 	}
 
@@ -46,9 +46,7 @@ export class Navbar extends React.Component {
 						</Link>
 					</div>
 					<div className="social-icons text-left p-3 mt-3">
-						<Modal show={this.state.show} handleClose={this.hideModal}>
-							<br />
-						</Modal>
+						<Modal show={this.state.show} handleClose={this.hideModal} />
 						<a
 							href="#"
 							className="button button-icon"
