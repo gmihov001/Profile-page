@@ -11,7 +11,7 @@ export const Modal = ({ show, handleClose }) => {
 					<div className="modal-header h4">Please reach me at:</div>
 					<div className="modal-body h5 py-5 text-center">gmihov001@gmail.com</div>
 					<div className="modal-footer d-flex justify-content-center">
-						<button type="button" className="glow-on-hover px-4 py-2 h4" onClick={handleClose}>
+						<button type="button" className="glow-on-hover px-5 py-2 h4" onClick={handleClose}>
 							CLOSE
 						</button>
 					</div>
