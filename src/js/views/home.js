@@ -10,24 +10,25 @@ export class Home extends React.Component {
 
 	render() {
 		return (
-			<div className="wrapper home">
-				<div className="row mt-5 d-block">
-					<div className="row my-5 d-block">
-						<div className="text-center h1">
-							<span className="cyan-shadow"> WELCOME </span>AND
-							<span className="cyan-shadow"> THANK YOU </span>
-							FOR VISITING!
+			<div className="wrapper">
+				<div className="container mr-0">
+					<div className="row home d-block">
+						<div className="col-12 pt-5 d-block">
+							<div className="row justify-content-center h1">
+								<span className="cyan-shadow"> WELCOME </span>AND
+								<span className="cyan-shadow"> THANK YOU </span>
+								FOR VISITING!
+							</div>
+							<div className="row my-5">&nbsp;</div>
+							<div className="row my-5">&nbsp;</div>
+							<div className="row my-5">&nbsp;</div>
+							<div className="row my-5">&nbsp;</div>
 						</div>
-						<div className="my-5">&nbsp;</div>
-						<div className="my-5">&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-						<div>&nbsp;</div>
-					</div>
-					<div className="row mt-5 d-block px-5">
-						<div className="my-5">&nbsp;</div>
-						<div className="h2 mt-5">
-							<span className="text-effect1"> &lsaquo; &lsaquo; SELECT A SECTION </span>
+						<div className="col-12 mt-5 d-block">
+							<div className="row my-5">&nbsp;</div>
+							<div className="row h2 mt-5 justify-content-center">
+								<span className="text-effect1"> &lsaquo; &lsaquo; &lsaquo; Select A Section </span>
+							</div>
 						</div>
 					</div>
 				</div>
