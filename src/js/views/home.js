@@ -10,7 +10,7 @@ export class Home extends React.Component {
 
 	render() {
 		return (
-			<div className="wrapper">
+			<div className="wrapper mainBackgr">
 				<div className="container mr-0">
 					<div className="row home d-block">
 						<div className="col-12 pt-5 d-block">
