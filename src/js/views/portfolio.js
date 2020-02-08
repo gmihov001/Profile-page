@@ -12,7 +12,7 @@ export class Portfolio extends React.Component {
 	render() {
 		return (
 			<div className="wrapper">
-				<div className="container">
+				<div className="container-fluid">
 					<div className="row portfolio ml-0 py-5 d-flex justify-content-end">
 						<span className="h3 section-heading">MY PROJECTS</span>
 					</div>
