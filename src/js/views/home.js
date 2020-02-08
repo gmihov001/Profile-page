@@ -26,9 +26,7 @@ export class Home extends React.Component {
 						</div>
 						<div className="col-12 mt-5 d-block">
 							<div className="row my-5">&nbsp;</div>
-							<div className="row h2 mt-5 justify-content-center">
-								<span className="text-effect1"> &lsaquo; &lsaquo; &lsaquo; Select A Section </span>
-							</div>
+							<div className="row h2 mt-5 justify-content-center"></div>
 						</div>
 					</div>
 				</div>
