@@ -10,13 +10,15 @@ export const Profile = () => {
 					<span className="h3 section-heading">MY PROFILE</span>
 				</div>
 				<div className="row secondary py-5 d-block ml-5">
-					<p className="h1">EDUCATION </p>
+					<p className="h3">EDUCATION </p>
+					<p className="h3">4-year degree in Management, Computer Science from FIU</p>
+					<p className="h3">Full-stack Web Development certification from Miami staple 4Geeks Academy</p>
 				</div>
 				<div className="row secondary py-5 d-block ml-5">
-					<p className="h1">SKILLS </p>
+					<p className="h3">SKILLS </p>
 				</div>
 				<div className="row secondary py-5 d-block ml-5">
-					<p className="h1">WORK HISTORY </p>
+					<p className="h3">WORK HISTORY </p>
 				</div>
 			</div>
 		</div>
