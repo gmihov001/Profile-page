@@ -9,6 +9,7 @@ import { About } from "./views/about";
 import { Portfolio } from "./views/portfolio";
 import { Profile } from "./views/profile";
 import { Navbar } from "./component/navbar";
+import { Project1 } from "./component/proj1";
 import { Footer } from "./component/footer";
 
 export const Layout = () => {
@@ -22,6 +23,7 @@ export const Layout = () => {
 						<Route path="/about" component={About} />
 						<Route path="/portfolio" component={Portfolio} />
 						<Route path="/profile" component={Profile} />
+						<Route path="/proj1" component={Project1} />
 						<Route path="/single/:theid" component={Single} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
