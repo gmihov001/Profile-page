@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-import Wandetracker from "../../img/wandertracker.jpg";
+import Wandetracker1 from "../../img/wandertracker1.jpg";
 
 export class Portfolio extends React.Component {
 	constructor(props) {
@@ -19,7 +19,7 @@ export class Portfolio extends React.Component {
 					<div className="row secondary d-flex justify-content-center py-5">
 						<div className="column #1">
 							<div className="img__wrap img1">
-								<img className="img__img" src="http://placehold.it/257x200.jpg" />
+								<img className="img__img img-thumbnail" src={Wandetracker1} />
 								<Link to="/proj1">
 									<div className="img__description_layer1">
 										<span className="img__description d-block h4">WanderTracker</span>
