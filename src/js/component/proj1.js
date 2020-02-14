@@ -1,11 +1,11 @@
 import React from "react";
 import Wandertracker1 from "../../img/wandertracker1.jpg";
-import Wandertracker2 from "../../img/wandertracker2.JPG";
-import Wandertracker3 from "../../img/wandertracker3.JPG";
-import Wandertracker4 from "../../img/wandertracker4.JPG";
-import Wandertracker5 from "../../img/wandertracker5.JPG";
-import Wandertracker6 from "../../img/wandertracker6.JPG";
-import Wandertracker7 from "../../img/wandertracker7.JPG";
+import Wandertracker2 from "../../img/wandertracker2.jpg";
+import Wandertracker3 from "../../img/wandertracker3.jpg";
+import Wandertracker4 from "../../img/wandertracker4.jpg";
+import Wandertracker5 from "../../img/wandertracker5.jpg";
+import Wandertracker6 from "../../img/wandertracker6.jpg";
+import Wandertracker7 from "../../img/wandertracker7.jpg";
 
 export const Project1 = () => {
 	return (
