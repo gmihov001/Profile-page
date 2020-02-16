@@ -35,9 +35,14 @@ export const Project1 = () => {
 							travel process, from researching destinations, through planning trips, providing support
 							while on the road, keeping and sharing memories, and tracking visited locations.
 						</p>
+						<p>Users have the ability to......</p>
+						<p>
+							The app was designed with mobile devices in mind and utilizes Bootstrap to ensure proper
+							display on devices with different size screens.
+						</p>
 						<p className="my-2">&nbsp;</p>
 						<p className="h4"> Technologies used: </p>
-						<p className="h5"> HTML, CSS, JS, React, Context, Python, Flask, SQLAlchemy </p>
+						<p className="h5"> HTML, CSS, Bootstrap, JS, React, Context, Python, Flask, SQLAlchemy </p>
 						<p className="my-2">&nbsp;</p>
 						<p className="h5">
 							{" "}
@@ -50,7 +55,7 @@ export const Project1 = () => {
 						<p className="h5">
 							{" "}
 							Live version:{" "}
-							<a href="https://github.com/gmihov001/Wandertracker_front-end">
+							<a href="https://wandertrackerfront-end.gmihov001.now.sh/">
 								https://wandertrackerfront-end.gmihov001.now.sh/
 							</a>
 						</p>
