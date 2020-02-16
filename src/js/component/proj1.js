@@ -6,7 +6,7 @@ import Wandertracker4 from "../../img/wandertracker4.jpg";
 import Wandertracker5 from "../../img/wandertracker5.jpg";
 import Wandertracker6 from "../../img/wandertracker6.jpg";
 import Wandertracker7 from "../../img/wandertracker7.jpg";
-import Wandertracker7 from "../../img/wandertracker8.jpg";
+import Wandertracker8 from "../../img/wandertracker8.jpg";
 
 export const Project1 = () => {
 	return (
